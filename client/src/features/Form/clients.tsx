@@ -16,19 +16,19 @@ function ClientForm() {
         fullWidth
         sx={{ my: 1 }}
         name="lname"
-        label="Last Name"
+        label="Отчество"
       />
       <TextFieldElement
         fullWidth
         sx={{ my: 1 }}
         name="fname"
-        label="First Name"
+        label="Имя"
       />
       <TextFieldElement
         fullWidth
         sx={{ my: 1 }}
         name="mname"
-        label="Middle Name"
+        label="Фамилия"
       />
       <TextFieldElement
         fullWidth
@@ -42,7 +42,7 @@ function ClientForm() {
         fullWidth
         sx={{ my: 1 }}
         name={"phone"}
-        label={"Phone"}
+        label={"Телефон"}
         required
         type={"tel"}
       />

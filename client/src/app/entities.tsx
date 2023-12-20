@@ -25,36 +25,36 @@ export const entities: {
   };
 } = {
   clients: {
-    label: "Clients",
+    label: "Клиенты",
     color: "primary",
     icon: <SupervisorAccount />,
     hFieldSubstr: "name",
   },
   agents: {
-    label: "Agents",
+    label: "Агенты",
     icon: <Hail />,
     hFieldSubstr: "name",
   },
   realty: {
-    label: "Real estate",
+    label: "Недвижимость",
     color: "error",
     icon: <Apartment />,
     hFieldSubstr: "coord",
   },
   offers: {
-    label: "Offers",
+    label: "Предложения",
     color: "warning",
     icon: <BusinessCenter />,
     hFieldSubstr: "realty",
   },
   demands: {
-    label: "Demands",
+    label: "Потребность",
     color: "success",
     icon: <RequestPage />,
     hFieldSubstr: "realty",
   },
   deals: {
-    label: "Deals",
+    label: "Сделки",
     color: "info",
     icon: <PlaylistAddCheck />,
     hFieldSubstr: "realty",

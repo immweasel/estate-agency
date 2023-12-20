@@ -82,7 +82,7 @@ function Search() {
     <>
       {/* TODO: Add UP button */}
       <TextField
-        label="Search"
+        label="Поиск"
         id="search-input"
         fullWidth
         onChange={(e) => handleSearch(e.target.value)}
